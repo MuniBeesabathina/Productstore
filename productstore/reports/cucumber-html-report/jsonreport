@@ -1,0 +1,444 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login into Product_Store Website",
+        "description": "",
+        "id": "product-store-website;login-into-product-store-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14297482900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user launch the Chrome application",
+            "match": {
+              "location": "Loginstep.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 842305500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicking on login to navigate Login Page",
+            "match": {
+              "location": "Loginstep.clicking_on_login_to_navigate_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9117721501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login using \"muni\" and \"123\" with valid and invalid details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "muni",
+                  "offset": 22
+                },
+                {
+                  "val": "123",
+                  "offset": 33
+                }
+              ],
+              "location": "Loginstep.the_user_login_using_and_with_valid_and_invalid_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 551322799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicking on login button",
+            "match": {
+              "location": "Loginstep.click_on_login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01_Login"
+          },
+          {
+            "line": 1,
+            "name": "@Product_Store"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login into Product_Store Website",
+        "description": "",
+        "id": "product-store-website;login-into-product-store-website;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9404864800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user launch the Chrome application",
+            "match": {
+              "location": "Loginstep.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260385500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicking on login to navigate Login Page",
+            "match": {
+              "location": "Loginstep.clicking_on_login_to_navigate_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8420196500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login using \"munib\" and \"1234\" with valid and invalid details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "munib",
+                  "offset": 22
+                },
+                {
+                  "val": "1234",
+                  "offset": 34
+                }
+              ],
+              "location": "Loginstep.the_user_login_using_and_with_valid_and_invalid_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185161899,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicking on login button",
+            "match": {
+              "location": "Loginstep.click_on_login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01_Login"
+          },
+          {
+            "line": 1,
+            "name": "@Product_Store"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login into Product_Store Website",
+        "description": "",
+        "id": "product-store-website;login-into-product-store-website;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6612997199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user launch the Chrome application",
+            "match": {
+              "location": "Loginstep.the_user_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155517400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicking on login to navigate Login Page",
+            "match": {
+              "location": "Loginstep.clicking_on_login_to_navigate_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8406231901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user login using \"bmuni\" and \"12345\" with valid and invalid details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bmuni",
+                  "offset": 22
+                },
+                {
+                  "val": "12345",
+                  "offset": 34
+                }
+              ],
+              "location": "Loginstep.the_user_login_using_and_with_valid_and_invalid_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228558200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicking on login button",
+            "match": {
+              "location": "Loginstep.click_on_login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01_Login"
+          },
+          {
+            "line": 1,
+            "name": "@Product_Store"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Add to cart in Product_Store",
+        "description": "",
+        "id": "product-store-website;add-to-cart-in-product-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7387635000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Launch the Chrome application",
+            "match": {
+              "location": "Addtocartstep.launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 745344500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Clicking on product to navigate product Page",
+            "match": {
+              "location": "Addtocartstep.clicking_on_product_to_navigate_product_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16163080101,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks add to cart",
+            "match": {
+              "location": "Addtocartstep.the_user_clicks_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3307174000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Clicking on close browser button",
+            "match": {
+              "location": "Addtocartstep.click_on_close_browser_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@TC_02_add"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Delete product in Product_Store",
+        "description": "",
+        "id": "product-store-website;delete-product-in-product-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7189133700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "For launching the Chrome application",
+            "match": {
+              "location": "Deletestep.for_launching_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 698277300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Clicking on item to navigate item Page",
+            "match": {
+              "location": "Deletestep.clicking_on_item_to_navigate_item_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14547781800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user delete the product",
+            "match": {
+              "location": "Deletestep.the_user_clicks_add_to_cart_and_delete_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3121775501,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "To close the browser button",
+            "match": {
+              "location": "Deletestep.to_close_the_browser_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@TC_03_Delete"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Navigate in Product_Store",
+        "description": "",
+        "id": "product-store-website;navigate-in-product-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7332823400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "To launch the Chrome application",
+            "match": {
+              "location": "Nextpagestep.to_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6942593399,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Clicking on next to navigate next Page",
+            "match": {
+              "location": "Nextpagestep.clicking_on_next_to_navigate_next_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3292692400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Clicking on browser button",
+            "match": {
+              "location": "Nextpagestep.click_on_browser_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@TC_04_next"
+          }
+        ]
+      }
+    ],
+    "name": "Product_Store Website",
+    "description": "",
+    "id": "product-store-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/feature/product.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Product_Store"
+      }
+    ]
+  }
+]
